@@ -3,18 +3,26 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
+
+
+}
+
+#centratore{
+  width: 80%;
   margin: auto;
 }
 
+
 .intestazione, .firstrow{
   margin-bottom: 20px;
+
 }
 
 
 /* regole header */
 .intestazione{
-  width: 80%;
-  height: 80px;
+  width: 100%;
+  height: 50px;
   /* debug: */
   background-color: yellow;
 
@@ -24,8 +32,8 @@
 
 /* sezione superiore */
 .firstrow{
-  width: 80%;
-  height: 170px;
+  width: 100%;
+  height: 180px;
   /* debug: */
   background-color: red;
 }
@@ -33,8 +41,8 @@
 
 /* sezione inferiore */
 .secondrow{
-  width: 80%;
-  height: 250px;
+  width: 100%;
+  height: 400px;
   margin-bottom: 10px;
   /* debug */
   background-color: blue;
@@ -42,13 +50,14 @@
 
  .secondtitle{
    width: 100%;
-   height: 50px;
-   background-color: lightblue;
+   height: 10%;
    margin-bottom: 12px;
+   /* debug */
+   background-color: lightblue;
  }
 
  .column{
-   height: 180px;
+   height: 85%;
    float: left;
 
  }
@@ -59,19 +68,22 @@
   clear: both;
 }
  .small{
-   width: calc(25% - 5px)  ;
+   width: calc(25% - 5px);
+   /* debug */
    background-color: red;
  }
 
  .big{
    width: calc(50% - 10px);
-   background-color: lightblue;
    margin:0 10px;
+   /* debug */
+   background-color: lightblue;
  }
 /* regole footer */
 
 .foot{
-  width: 80%;
-  height: 80px;
+  width: 100%;
+  height: 30px;
+  /* debug */
   background-color: purple;
 }
