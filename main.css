@@ -3,8 +3,75 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  margin: auto;
 }
 
-body{
+.intestazione, .firstrow{
+  margin-bottom: 20px;
+}
+
+
+/* regole header */
+.intestazione{
+  width: 80%;
+  height: 80px;
+  /* debug: */
+  background-color: yellow;
+
+}
+
+/* regole main */
+
+/* sezione superiore */
+.firstrow{
+  width: 80%;
+  height: 170px;
+  /* debug: */
   background-color: red;
+}
+
+
+/* sezione inferiore */
+.secondrow{
+  width: 80%;
+  height: 250px;
+  margin-bottom: 10px;
+  /* debug */
+  background-color: blue;
+}
+
+ .secondtitle{
+   width: 100%;
+   height: 50px;
+   background-color: lightblue;
+   margin-bottom: 12px;
+ }
+
+ .column{
+   height: 180px;
+   float: left;
+
+ }
+
+ .secondrow::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+ .small{
+   width: calc(25% - 5px)  ;
+   background-color: red;
+ }
+
+ .big{
+   width: calc(50% - 10px);
+   background-color: lightblue;
+   margin:0 10px;
+ }
+/* regole footer */
+
+.foot{
+  width: 80%;
+  height: 80px;
+  background-color: purple;
 }
